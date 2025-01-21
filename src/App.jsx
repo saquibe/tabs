@@ -17,7 +17,7 @@ const App = () => {
     fetchJobs();
   }, []);
 
-  console.log(jobs);
+  // console.log(jobs);
 
   if (isLoading) {
     return (
